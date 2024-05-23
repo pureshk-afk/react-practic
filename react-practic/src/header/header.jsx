@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import image from "../assets/Group21.svg";
 import "../header/header.css";
 import { Button } from "../snippets/button";
@@ -18,6 +19,10 @@ const MENU = [
 ];
 
 export function Header() {
+  useEffect(() => {
+    return;
+  }, []);
+
   return (
     <>
       <header>
